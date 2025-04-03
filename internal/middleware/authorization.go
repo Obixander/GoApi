@@ -30,8 +30,8 @@ func Autherization(next http.Handler) http.Handler {
 			return
 		}
 
-		var loginDetails *tools.loginDetails
-		loginDetails = (*&database).GetUserLoginDetails(username)
+		var loginDetails *tools.LoginDetails
+		loginDetails = (*database).GetUserLoginDetails(username)
 
 		if loginDetails == nil || (token != (*loginDetails).AuthToken) {
 			log.Error(UnAutherizedError)
