@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/Obixander/GoApi/api"
-	"github.com/obixander/goapi/internal/tools"
+	"github.com/obixander/GoApi/tree/master/internal/tools"
 	log "github.com/sirupsen/logrus"
 )
 
