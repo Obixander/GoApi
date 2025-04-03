@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"github.com/Obixander/GoApi/internal/middleware"
-	"github.com/go-chi/chi"
 	chimiddle "github.com/go-chi/chi/middleware"
+	"github.com/go-chi/chi/v5"
 )
 
 func Handler(r *chi.Mux) {

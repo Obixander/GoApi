@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Obixander/GoApi/internal/api"
+	"github.com/Obixander/GoApi/api"
 	"github.com/Obixander/GoApi/internal/tools"
 	"github.com/gorilla/schema"
 	log "github.com/sirupsen/logrus"
