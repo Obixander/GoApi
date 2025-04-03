@@ -12,7 +12,7 @@ import (
 
 func GetCoinBalance(w http.ResponseWriter, r *http.Request) {
 	var params = api.CoinBalanceParams{}
-	var decoder *schema.decoder = schema.NewDecoder()
+	var decoder *schema.Decoder = schema.NewDecoder()
 	var err error
 
 	err = decoder.Decode(&params, r.URL.Query())
